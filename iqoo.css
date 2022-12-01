@@ -1,0 +1,248 @@
+.page1{
+    width: 100%;
+    height: 100%;
+}
+.topper{
+    width: 100%;
+    height: 60px;
+    background-color: #181818;
+    display: flex;
+}
+body{
+    margin: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    padding-top: 17px;
+    margin-left: 76px;
+}
+.vep-head-logo-small{
+    fill: aliceblue;
+    cursor: pointer;
+    
+}
+.vep-head-logo-small:hover{
+    fill: #ecb80c;
+}
+.head-list ul{
+    list-style: none;
+    font-family: "AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    justify-content: space-between;
+    display: flex;
+    gap: 35px;
+    color: rgb(206, 203, 203);
+    font-size: 16px;
+    margin-left: 0px;
+}
+.head-list li{
+    cursor: pointer; 
+}
+.head-list li:hover{
+    color: #ec530c;
+}
+.head-list i{
+    padding-left: 0px;
+    padding-bottom: 0px;
+    color: aliceblue;
+    cursor: pointer;
+}
+.head-list i:hover{
+    color: #ec530c;
+}
+.front-img{
+    width: 100%;
+    height: 100%;
+    background-image: url(./lite-2560x1100.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.sub-ad{
+    width: 100%;
+    height: 30%;
+    margin-top: 65px;
+}
+
+.img{
+    transition: 500ms;
+    background-color: #fff;
+    cursor: pointer;
+    
+    
+}
+.img1{
+    width: 25%;
+    height: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    background-size: contain;
+    background-image: url(./iqoo-neo6-1277-600.webp);
+}
+.img2{
+    width: 25%;
+    height: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    background-size: contain;
+    background-image: url(./iqoo-9pro-1277-600.webp);
+}
+.img3{
+    width: 25%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    background-image: url(./iqoo9-1277-600.webp);
+}
+.img4{
+    background-repeat: no-repeat;
+    width: 25%;
+    background-size: contain;
+    height: 100%;
+    float: left;
+    background-image: url(./iqoo-z5-1277-600.webp);
+}
+ .img:hover{
+    scale: 1.2;
+ }
+ .end-txt{
+    width: 100%;
+    height: 45%;
+    padding-left: 80px;
+ }
+
+ .top-text{
+    display: flex;
+    gap: 20px;
+ }
+ .txt1{
+    height: 100%;
+    width: 20%;
+    /* float: left; */
+ }
+ .txt1 ul{
+    list-style: none;
+    color: rgb(140, 143, 143);
+    line-height: 40px;
+
+ }
+ .txt1 p{
+    color: black;
+ }
+ .txt1 li{
+    cursor: pointer;
+ }
+ .txt1 li:hover{
+    color: #ec530c;
+ }
+.data{
+    height: 100px;
+    width: 250px;
+    background-color: #fff;
+    
+}
+.txt-data{
+    display: flex;
+    padding-inline-start: 0%;
+    justify-content: space-around;
+
+}
+.txt-data li:hover{
+    scale: 1.6;
+    transition: 400ms;
+}
+.data p{
+    padding-left: 85px;
+
+}
+.tail{
+    height: 90px;
+    width: 88%;
+    background-color: #fff;
+    border-top: 1px solid rgb(140, 143, 143);
+
+}
+.tail ul{
+    list-style: none;
+    color: rgb(140, 143, 143);
+    display: flex;
+    justify-content: space-around;
+    padding-right: 50px;
+    padding-top: 17px;
+}
+.tail li{
+    cursor: pointer;
+}
+.tail li:hover{
+    color: #ec530c;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #181818;
+    margin-top: 60px;
+}
+.footer p{
+    font-size: 12px;
+    color: rgb(140, 143, 143);
+    padding-left: 495px;
+    padding-top: 25px;
+}
+
+
+
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: -36%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: -162%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+    
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+
+
+
+
+
+
